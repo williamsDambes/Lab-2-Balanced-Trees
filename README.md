@@ -8,9 +8,9 @@ This project implements and compares three types of search trees to analyze thei
 3. **Red-Black Tree** - Self-balancing tree using color properties and rotations.
 
 ## Files in the Project
-- `bst.py` - Binary Search Tree implementation class.
-- `avl.py` - AVL Tree implementation class.
-- `red_black.py` - Red-Black Tree implementation class.
+- `bst.ipynb` - Binary Search Tree implementation class.
+- `avl.ipynb` - AVL Tree implementation class.
+- `red_black.ipynb` - Red-Black Tree implementation class.
 - `experiments.ipynb` - Jupyter Notebook to run experiments and visualize graphs.
 - `requirements.txt` - List of required Python libraries.
 
