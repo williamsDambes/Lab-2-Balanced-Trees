@@ -1,27 +1,21 @@
-# Lab-2-Balanced-Trees
-This project implements and compares three types of search trees:
-1. Binary Search Tree (BST)
-2. AVL Tree (self-balancing)
-3. Red-Black Tree (self-balancing)
+# Lab 2: Balanced Search Trees
 
- Files in the project:
-- `bst.ipynb` - Binary Search Tree implementation
-- `avl.ipynb` - AVL Tree implementation (extends BST)
-- `red_black.ipynb` - Red-Black Tree implementation
-- `final experiments.ipynb` - Testing and experiments
-- `requirements.txt` - Dependencies
+This project implements and compares three types of search trees to analyze their performance (height) under different data distributions.
 
- How to run:
+## Trees Implemented
+1. **Binary Search Tree (BST)** - Standard implementation.
+2. **AVL Tree** - Self-balancing tree using rotations.
+3. **Red-Black Tree** - Self-balancing tree using color properties and rotations.
 
-1. Install requirements:
-2. Run the experiments:
-3. To test individual trees:
-```python
-from bst import BST
-from avl import AVLTree
-from red_black import RedBlackTree
+## Files in the Project
+- `bst.py` - Binary Search Tree implementation class.
+- `avl.py` - AVL Tree implementation class.
+- `red_black.py` - Red-Black Tree implementation class.
+- `experiments.ipynb` - Jupyter Notebook to run experiments and visualize graphs.
+- `requirements.txt` - List of required Python libraries.
 
-# Create and use trees
-bst = BST()
-bst.insert[10, 5, 15, 3, 7, 12, 18]
-print(bst.get_height())
+## How to Run
+
+1. **Install requirements:**
+   ```bash
+   pip install -r requirements.txt
