@@ -19,3 +19,4 @@ This project implements and compares three types of search trees to analyze thei
 1. **Install requirements:**
    ```bash
    pip install -r requirements.txt
+   
